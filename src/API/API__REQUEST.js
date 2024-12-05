@@ -18,7 +18,7 @@ import {
 } from "../redux/stateSlice/Task-slice";
 import store from "../redux/store/Store";
 
-const BaseURL = "http://localhost:8080/api/v1";
+const BaseURL = "https://taskmanagerbackend-main.onrender.com/api/v1";
 
 const AxiosToken = { headers: { token: getToken() } };
 
